@@ -8,6 +8,8 @@ also limits the size of networks that RIP can support.RIP version 2 (RIPv2) was 
 
 - RIPv2 multicasts the entire routing table to all adjacent routers at the address 224.0.0.9, as opposed to RIPv1 which uses broadcast (255.255.255.255). Unicast addressing is still allowed for special applications.
 
+Distance: (default is 120)
+
  RIP Config:
  
     R1#conf t
@@ -20,6 +22,6 @@ also limits the size of networks that RIP can support.RIP version 2 (RIPv2) was 
 
     R1(config-router)#exit
     
-    
+Videos : 
     
  RFC : https://tools.ietf.org/html/rfc1058
